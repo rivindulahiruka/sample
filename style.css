@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+body{
+    background-image: url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+h1{
+    color: blue;background-color: yellowgreen;text-align: center;
+    font-family: "Jacquard 12", system-ui;
+}
+p{
+   color: aliceblue;
+   font-family: "Freeman", sans-serif;
+}*/
+
+#sampleID{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    margin: 100px;
+    padding: 100px 200px 50px 20px;
+    border: 20px solid red;
+}
+.my_class{
+    background-color: aquamarine;
+    color: black;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+   
+    top:85%;
+    position: sticky;
+    z-index: 1;
+
+}
+.box2{
+    width: 1000px;
+    height: 100px;
+    background-color:blue;
+    position: relative;
+}
